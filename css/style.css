@@ -1,0 +1,377 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'montserrat', sans-serif;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.logo{
+    margin-top: 15px;
+}
+.mainmenu{
+    margin-right: 0;
+}
+.logo span{
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 8px;
+    padding-top: 3px;
+}
+.navbar-nav{
+    float: 
+}
+.navbar-nav li a{color: #A2A2A2;}
+.slider-area{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/slider.jpg) no-repeat scroll 0 0;
+    background-size: cover;
+}
+
+.slider-text {
+    padding: 170px 0;
+}
+.slider-text h1 {
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.slider-text p {
+    font-family: roboto-slab;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+a.btn-fill{
+    background-color: #81C47A;
+    padding: 24px 42px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-family: 'roboto-slab', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+a.btn-fill:hover {
+    background: #fff;
+    color: #000;
+}
+.services-area {
+    padding: 100px 0;
+}
+
+h1.title-head {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.service-head p {
+    font-size: 20px;
+    font-family: 'roboto-slab', sans-serif;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+.service-type img {
+    margin-bottom: 40px;
+}
+
+.service-type h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'roboto-slab', sans-serif;
+}
+
+.service-type p {
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    color: #777777;
+}
+.relax-area{
+    margin-bottom: 100px;
+}
+.relax-left{
+    background-color: #E9E9E9;
+    padding: 299px 0;
+}
+.relax-right{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/relax.jpg) no-repeat scroll 0 0;
+    background-size: cover;
+    padding: 100px 90px;
+}
+.relax-text h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.relax-text p {
+    color: #CCCCCC;
+    font-size: 16px;
+    font-family: 'robotoslab', sans-serif;
+    margin-bottom: 20px;
+}
+.support{
+    margin-bottom: 50px;
+}
+.support i{
+    display: inline;
+    margin-right: 15px;
+}
+.latest-text h1 {
+    font-size: 40px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.latest-text p {
+    font-size: 22px;
+    font-family: 'robotoslab', sans-serif;
+}
+
+.latest-text {
+    padding-bottom: 90px;
+}
+.category i {
+    border: 2px solid;
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    display: inline;
+    padding: 9px 0px;
+}
+.category i::before{
+    font-size: 40px;
+}
+.category {
+    margin-bottom: 30px;
+}
+.left-col h4 {
+    font-size: 20px;
+    font-family: 'robotoslab', sans-serif;
+}
+
+.left-col p {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.category-text h4 {
+    font-size: 18px;
+    font-family: 'robotoslab', sans-serif;
+    font-weight: bold;
+}
+
+.category-text p {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+
+.category-text {
+    line-height: 5px;
+    padding-top: 11px;
+}
+i.fa.fa-arrow-right {
+    padding-left: 5px;
+}
+.i-pad {
+    overflow: hidden;
+    align-items: end;
+    padding-left: 96px;
+}
+.culture-title {
+    margin-bottom: 100px;
+}
+.culture-title p{
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    color: #777777;
+}
+i.fa.fa-music {
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid #777777;
+    padding: 20px;
+    border-radius: 62%;
+    color: #777777;
+    width: 100px;
+}
+i.fa.fa-signal {
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid #777777;
+    padding: 20px;
+    border-radius: 62%;
+    color: #777777;
+}
+i.fa.fa-star-o {
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid #777777;
+    padding: 20px;
+    border-radius: 62%;
+    color: #777777;
+}
+.b-line {
+    stroke: #807979;
+    stroke-width: 2;
+    width: 200px;
+    height: 2px;
+    position: relative;
+}
+.culture-area {
+    margin-bottom: 100px;
+}
+.review-area {
+    margin-bottom: 100px;
+}
+.review-title {
+    margin-bottom: 40px;
+}
+.review-title h1 {
+    font-size: 40px;
+}
+
+.review-title p {
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    color: #777777;
+}
+
+p.review1 {
+    font-size: 20px;
+    color: #777777;
+    padding: 60px;
+}
+p.review2 {
+    font-size: 20px;
+    color: #777777;
+    padding: 36px;
+}
+
+.contact-area {
+    background: #81C47A;
+    padding: 100px 0;
+}
+.contact-details h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+}
+
+a.contact-btn {
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 6px;
+    font-family: 'robotoslab', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+a.contact-btn:hover {
+    color: #81C47A;
+    background: #fff;
+}
+.partner-logos {
+    padding: 70px 0;
+}
+
+.partner-logos a {
+    padding: 0px 40px;
+}
+.footer-top-area {
+    background: #222222;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer-top-content h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'robotslab', sans-serif;
+    margin-bottom: 25px;
+}
+
+.footer-top-content p {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+}
+
+.footer-top-content a {
+    color: #fff;
+    font-size: 16px;
+}
+.footer-top-area i {
+    font-size: 28px;
+    padding-right: 12px;
+    line-height: 40px;
+}
+.footer-bottom-text {
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    color: #7F7F7F;
+    padding: 18px;
+}
+
+.social-icons i {
+    color: #fff;
+    background: #222222;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 23px;
+    font-size: 24px;
+    margin: 7px;
+}
+
+.footer-bottom-area {
+    padding: 12px;
+}
+.footer-bottom-text {
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    color: #7F7F7F;
+    padding: 18px;
+}
