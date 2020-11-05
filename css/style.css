@@ -11,7 +11,7 @@
     display: block;
     margin: 0 auto 15px;
 }
-a:focus { outline: 0 solid }
+a:focus { outline: 0  }
 img {
     max-width: 100%;
     height: auto;
@@ -37,6 +37,16 @@ a:hover { text-decoration: none }
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
+.section-padding{padding: 80px 0;}
+/*sticky css*/
+.is-sticky {
+    position:  absolute;
+    z-index:  999;
+}
+.is-sticky .header-area{background: #ccc;}
+.mainmenu .navbar-nav > .active > a, .mainmenu .navbar-nav > .active > a:hover, .mainmenu .navbar-nav > .active > a:focus{
+    background: #81C47A;
+}
 .logo{
     margin-top: 15px;
 }
@@ -51,10 +61,19 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-left: 8px;
     padding-top: 3px;
 }
-.navbar-nav{
-    float: 
+.navbar-nav li a{color: #636363; font-weight: 600;}
+.navbar-nav li a:hover{
+    background: #81C47A;
+    color: #fff;
 }
-.navbar-nav li a{color: #A2A2A2;}
+.navbar-toggle{
+    border: 1px solid #777;
+    margin-top: -35px;
+}
+.navbar-toggle .icon-bar{
+    background: #777;
+}
+
 .slider-area{
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/slider.jpg) no-repeat scroll 0 0;
     background-size: cover;
@@ -78,7 +97,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-bottom: 50px;
 }
 a.btn-fill{
-    background-color: #81C47A;
+    background-color: #85C37D;
     padding: 24px 42px;
     border-radius: 41px;
     font-size: 16px;
@@ -89,11 +108,9 @@ a.btn-fill{
 }
 a.btn-fill:hover {
     background: #fff;
-    color: #000;
+    color: #85C37D;
 }
-.services-area {
-    padding: 100px 0;
-}
+
 
 h1.title-head {
     font-size: 40px;
@@ -154,6 +171,7 @@ h1.title-head {
     display: inline;
     margin-right: 15px;
 }
+
 .latest-text h1 {
     font-size: 40px;
     font-family: 'montserrat', sans-serif;
